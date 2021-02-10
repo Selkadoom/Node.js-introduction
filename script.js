@@ -33,7 +33,21 @@ const http = require('http');
 let servidor = http.createServer(function (req, resp) {
     console.log("URL:", req.url); //todas as solicitações do servidor são mandadas pro req e a reposta pro res
     console.log("METHOD:", req.method);
-  console.log('servidor funcionando');
+  switch (req.url) {
+      case  '/':
+
+          res.setHeader('Content Type', 'text/html'); //Aqui eu to passando o tipo do conteudo
+          //e avisando que é Html
+          //----------
+          
+          res.end('<h1>Ola</h1>');//pedindo pra mandar uma res que cria um h1 com Ola escito
+        
+          
+          break;
+  
+      default:
+          break;
+  }
   resp.end(`
       <html>
          <head>
