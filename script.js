@@ -2,7 +2,7 @@ const express = require("express");
 
 let app = express();
 
-let servidor = http.createServer(function (req, resp) {
+app.get(function (req, resp) {
   console.log("URL:", req.url); //todas as solicitações do servidor são mandadas pro req e a reposta pro res
   console.log("METHOD:", req.method);
   switch (req.url) {
