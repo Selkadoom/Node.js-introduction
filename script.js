@@ -19,8 +19,7 @@ app.get("/users", (req, resp) => {
   //e avisando que é Html
   //----------
 
-  resp.end(
-    JSON.stringify({
+  resp.json({
       users: [
         {
           name: "Reinaldo Ramos",
@@ -29,7 +28,7 @@ app.get("/users", (req, resp) => {
         },
       ],
     })
-  );
+  ;
 });
 
 app.listen(3000, () => {
