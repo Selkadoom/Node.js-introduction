@@ -36,6 +36,8 @@ let servidor = http.createServer(function (req, resp) {
   switch (req.url) {
       case  '/':
 
+      req.statusCode = 200; //quando o usuário conecta com o servidor ele retorna um status code
+      //se for 200, a conexão deu certo
           res.setHeader('Content Type', 'text/html'); //Aqui eu to passando o tipo do conteudo
           //e avisando que é Html
           //----------
