@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Selkadoom/Node.js-introduction/issues"
   },
-  "homepage": "https://github.com/Selkadoom/Node.js-introduction#readme"
+  "homepage": "https://github.com/Selkadoom/Node.js-introduction#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
