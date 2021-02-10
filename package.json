@@ -1,0 +1,19 @@
+{
+  "name": "script",
+  "version": "1.0.0",
+  "description": "Projeto de node para me introduzir a este conteudo",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Selkadoom/Node.js-introduction.git"
+  },
+  "author": "Reinaldo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Selkadoom/Node.js-introduction/issues"
+  },
+  "homepage": "https://github.com/Selkadoom/Node.js-introduction#readme"
+}
