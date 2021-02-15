@@ -1,5 +1,6 @@
-const express = require("express");
-
+const express = require('express');
+let RoutesIndex = require('./ROUTES/index');
+let routesUsers = require('./ROUTES/users')
 let app = express();
 
 
